@@ -9,4 +9,13 @@ type: page
 This is your new project's homepage. Edit this file to get started.
 
 
-heres some changes on the main branch
+{% bar_chart
+    data="demo_daily_orders"
+    x="category"
+    y="sum(total_sales)"
+/%}
+
+changes
+
+
+blah blah
